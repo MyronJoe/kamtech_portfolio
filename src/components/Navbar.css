@@ -1,4 +1,66 @@
 .menu{
     width: 30px;
     height: 30px;
+    display: none;
 }
+
+.nav-logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav-link{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.nav-link::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    top: 23px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    transition: all 500ms ease;
+}
+
+.nav-link:hover:before{
+    background-color: orange;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    width: 90%;
+    margin: auto;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    list-style: none;
+}
+
+.nav-btn{
+    border: 1px solid white;
+    color: white;
+    padding: .3em 1em;
+    transition: all 500ms ease;
+}
+
+.nav-btn:hover{
+    border: 1px solid orange;
+    color: orange;
+}
+
