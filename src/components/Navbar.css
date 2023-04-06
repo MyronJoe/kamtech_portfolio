@@ -3,6 +3,7 @@
     height: 30px;
     display: none;
     cursor: pointer;
+    /* margin-right: 10px; */
 }
 .nav-logo-active{
     display: none;
@@ -11,6 +12,7 @@
     color: white;
     font-size: 25px;
     font-weight: 600;
+    
 }
 
 .nav-logo {
@@ -53,6 +55,10 @@ nav {
     padding: 1.5em;
     width: 90%;
     margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
 }
 
 .nav-menu {
@@ -88,6 +94,7 @@ nav {
 
     .nav-logo {
         display: block;
+        /* padding-left: 10px; */
     }
 
     .desktop-logo {
@@ -114,6 +121,7 @@ nav {
         left: 0;
         opacity: 1;
         z-index: 1;
+        
     }
 
     .nav-link {
