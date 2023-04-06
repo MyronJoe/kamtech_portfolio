@@ -5,10 +5,10 @@
   
 }
 a{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
-body{
+/* body{
   background-color: gray;
-}
+} */
 
