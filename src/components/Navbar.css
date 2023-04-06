@@ -2,23 +2,33 @@
     width: 30px;
     height: 30px;
     display: none;
+    cursor: pointer;
 }
-
-.nav-logo{
+.nav-logo-active{
+    display: none;
+}
+.desktop-logo {
     color: white;
     font-size: 25px;
     font-weight: 600;
 }
 
-.nav-link{
+.nav-logo {
     color: white;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 600;
+    display: none;
+}
+
+.nav-link {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
     position: relative;
     text-transform: uppercase;
 }
 
-.nav-link::before{
+.nav-link::before {
     content: '';
     position: absolute;
     height: 2px;
@@ -31,12 +41,12 @@
     transition: all 500ms ease;
 }
 
-.nav-link:hover:before{
+.nav-link:hover:before {
     background-color: orange;
     width: 100%;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +54,8 @@ nav{
     width: 90%;
     margin: auto;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,15 +63,101 @@ nav{
     list-style: none;
 }
 
-.nav-btn{
+.nav-btn {
     border: 1px solid white;
     color: white;
     padding: .3em 1em;
     transition: all 500ms ease;
 }
 
-.nav-btn:hover{
+.nav-btn:hover {
     border: 1px solid orange;
     color: orange;
 }
 
+@media screen and (max-width: 760px) {
+
+    nav{
+        width: 100%;
+        /* background-color: red; */
+        padding: 1.5em 1em;
+    }
+    .menu {
+        display: block;
+    }
+
+    .nav-logo {
+        display: block;
+    }
+
+    .desktop-logo {
+        display: none;
+    }
+
+    .nav-menu {
+        max-height: 0;
+        display: block;
+        width: 100%;
+        top: 70px;
+        height: 86vh;
+        position: absolute;
+        left: 0;
+        opacity: 1;
+        transition: all 200ms ease;
+        overflow: hidden;
+        padding: 0em 1em;
+    }
+
+    .nav-menu.active {
+        max-height: 39vh;
+        background: white;
+        left: 0;
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .nav-link {
+        margin-bottom: 25px;
+        display: block;
+        color: navy;
+    }
+
+    .nav-link::before {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 0%;
+        top: 23px;
+        left: 1px;
+        right: 0;
+        margin: 1px;
+
+    }
+    
+    .nav-link:hover:before {
+        background-color: orange;
+        width: 8%;
+    }
+
+    .nav-btn {
+        border: 1px solid orange;
+        color: orange;
+        margin-top: 10px;
+    }
+    
+    .nav-btn:hover {
+        border: 1px solid navy;
+        color: navy;
+    }
+    
+    .nav-logo-active{
+        color: navy;
+        font-size: 25px;
+        font-weight: 600;
+        display: block;
+    }
+    
+    .nav-active{
+        background-color: white;
+    }
+}

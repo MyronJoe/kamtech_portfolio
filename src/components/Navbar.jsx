@@ -14,8 +14,11 @@ function Navbar() {
     return (
         <>
             <Container>
-                <nav>
-                    <Link to='/' className='nav-logo' onClick={closeMobileMenu}>
+                <nav className={click ? 'nav-active' : ''}>
+                    <Link to='/' className={click ? 'nav-logo-active' : 'nav-logo'} onClick={closeMobileMenu}>
+                        KamTech
+                    </Link>
+                    <Link to='/' className='desktop-logo' onClick={closeMobileMenu}>
                         KamTech
                     </Link>
 
@@ -25,36 +28,36 @@ function Navbar() {
 
                     </div>
 
-                    <div className="menu-list">
-                        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
-                            <li className='nav-item'>
-                                <Link to="" className='nav-link' onClick={closeMobileMenu}>
-                                    Home
-                                </Link>
-                            </li>
-                            <li className='nav-item'>
-                                <Link to="" className='nav-link' onClick={closeMobileMenu}>
-                                    About
-                                </Link>
-                            </li>
-                            <li className='nav-item'>
-                                <Link to="" className='nav-link' onClick={closeMobileMenu}>
-                                    Service
-                                </Link>
-                            </li>
-                            <li className='nav-item'>
-                                <Link to="" className='nav-link' onClick={closeMobileMenu}>
-                                    Project
-                                </Link>
-                            </li>
-                            <li className='navBtn'>
-                                <Link to="" className='nav-btn' onClick={closeMobileMenu}>
-                                    Lets Connect
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+
+                        <li className='nav-item'>
+                            <Link to="" className='nav-link' onClick={closeMobileMenu}>
+                                Home
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to="" className='nav-link' onClick={closeMobileMenu}>
+                                About
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to="" className='nav-link' onClick={closeMobileMenu}>
+                                Service
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to="" className='nav-link' onClick={closeMobileMenu}>
+                                Project
+                            </Link>
+                        </li>
+                        <li className='navBtn'>
+                            <Link to="" className='nav-btn' onClick={closeMobileMenu}>
+                                Lets Connect
+                            </Link>
+                        </li>
+                    </ul>
+
 
                 </nav>
             </Container>
