@@ -1,9 +1,18 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
-      <h1>KamTech</h1>
+      <BrowserRouter>
+        <Navbar />
+
+        <Routes>
+          <Route path='/'  />
+        </Routes>
+
+      </BrowserRouter>
     </>
   );
 }
