@@ -1,0 +1,54 @@
+.services{
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+.service-card{
+    background-color: #FFFFFF;
+    padding: 2em;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(219, 219, 219);
+    color: black;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.service-card img{
+    width: 70px;
+}
+.title{
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.img-holder{
+    width: 120px;
+    height: 120px;
+    border: 10px solid navy;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 500ms ease;
+}
+
+.service-card:hover .img-holder{
+    border: 10px solid rgb(194, 194, 253);
+}
+
+.top-title{
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+}
+.top-title::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 110px;
+    top: 52px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: navy;
+}

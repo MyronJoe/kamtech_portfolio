@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import myImage from '../../src/img/me.jpg'
 import { Link } from 'react-router-dom';
-import { ArrowRight } from 'react-bootstrap-icons';
+
 
 function About() {
     return (
