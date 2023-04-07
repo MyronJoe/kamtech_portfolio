@@ -39,6 +39,11 @@ function Navbar() {
         section.scrollIntoView({ behavior: 'smooth', block: 'start' });
     };
 
+    const scroll4 = () => {
+        const section = document.querySelector('#msg');
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
     return (
         <div className={colorChange ? 'navbar colorChange' : 'navbar'}>
             <nav className={click ? 'nav-active' : ''}>
@@ -75,8 +80,8 @@ function Navbar() {
                             Project
                         </Link>
                     </li>
-                    <li className='navBtn'>
-                        <Link to="/message" className={colorChange ? 'nav-btn colorChange-nav-btn' : 'nav-btn'} onClick={closeMobileMenu}>
+                    <li className='navBtn' onClick={scroll4}>
+                        <Link to="/" className={colorChange ? 'nav-btn colorChange-nav-btn' : 'nav-btn'} onClick={closeMobileMenu}>
                             Lets Connect
                         </Link>
                     </li>
@@ -84,6 +89,11 @@ function Navbar() {
 
 
             </nav>
+
+
+            <div className="gotop" onClick={scroll}>
+            <i class="bi bi-arrow-up-short"></i>
+            </div>
         </div>
     )
 }

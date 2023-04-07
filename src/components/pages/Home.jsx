@@ -1,6 +1,7 @@
 import React from 'react'
 import About from '../About'
 import Herosection from '../Herosection'
+import Message from '../Message'
 import ProjectItem from '../ProjectItem'
 import ServicesItem from '../ServicesItem'
 
@@ -13,6 +14,7 @@ function Home() {
             <About/>
             <ServicesItem />
             <ProjectItem />
+            <Message />
         </div>
     )
 }
