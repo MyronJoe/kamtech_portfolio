@@ -8,6 +8,15 @@
 .nav-logo-active{
     display: none;
 }
+.nav-logo-active:hover{
+    color: white;
+}
+.desktop-logo:hover{
+    color: white;
+}
+.nav-logo:hover{
+    color: white;
+}
 .desktop-logo {
     color: white;
     font-size: 25px;

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Herosection.css'
 import bgImage from '../../src/img/blog-4.jpg'
+import { TypeAnimation } from 'react-type-animation';
 
 function Herosection() {
     return (
@@ -11,10 +12,29 @@ function Herosection() {
 
                 <h1>I am Myron Joe</h1>
 
-                    <div className='divider'></div>
-                    
-                <p class="intro-subtitle"><span class="text-slider-items">CEO KamTech,Web Developer,Web Designer,Frontend
-                    Developer,Graphic Designer</span><strong class="text-slider"></strong></p>
+                <div className='divider'></div>
+
+                <TypeAnimation
+                    sequence={[
+                        'CEO KamTech', // Types 'One'
+                        1000, // Waits 1s
+                        'FullStack Developer', // Deletes 'One' and types 'Two'
+                        2000, // Waits 2s
+                        'Web Designer', // Types 'Three' without deleting 'Two'
+                        3000, // Waits 3s
+                        'Frontend Developer', // Deletes 'One' and types 'Two'
+                        3500, // Waits 4s
+                        'Graphic Designer', // Types 'Three' without deleting 'Two'
+                        1000, 
+                        () => {
+                            console.log('Sequence completed'); // Place optional callbacks anywhere in the array
+                        }
+                    ]}
+                    wrapper="span"
+                    cursor={true}
+                    repeat={Infinity}
+                    style={{ fontSize: '2em', display: 'inline-block', color: 'white'}}
+                />
 
 
             </div>

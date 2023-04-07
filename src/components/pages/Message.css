@@ -1,4 +1,4 @@
-.header1 {
+.header2 {
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -12,7 +12,7 @@
     align-items: center;
     overflow: hidden;
 }
-.header {
+.header3 {
     background-color: rgba(0, 0, 0, 0.865);
     height: 100vh;
     width: 100%;
@@ -24,60 +24,5 @@
     position: absolute;
     top: 0;
 }
-.hero-word{
-    text-align: center;
-    font-family: 'Trebuchet MS';
-    padding: 1em;
-}
 
-.hero-word h1{
-    color: white;
-    font-size: 45px;
-}
 
-.hero-word p{
-    color: white;
-    font-size: 20px;
-}
-
-.divider{
-    height: 2px;
-    width: 70px;
-    background-color: orange;
-    animation: slide 6s linear infinite;
-    margin:12px auto;
-}
-
-@keyframes slide {
-    0%{
-        transform: translateX(-40px);
-    }
-    50%{
-        transform: translateX(40px);
-        background-color: white;
-    }
-    100%{
-        transform: translateX(-40px);
-    }
-}
-
-@media screen and (min-width: 860px) {
-    .hero-word h1{
-        font-size: 55px;
-    }
-    
-    .hero-word p{
-        font-size: 25px;
-    }
-}
-
-@media screen and (min-width: 960px) {
-    .hero-word h1{
-        font-size: 65px;
-    }
-    
-    .hero-word p{
-
-        font-size: 30px;
-    }
-}

@@ -45,7 +45,7 @@
     width: 70px;
     background-color: orange;
     animation: slide 6s linear infinite;
-    margin:12px auto;
+    margin:15px auto 0px auto;
 }
 
 @keyframes slide {
