@@ -55,10 +55,32 @@ nav {
     padding: 1.5em;
     width: 92%;
     margin: auto;
-    position: fixed;
+    position: relative;
     left: 0;
     right: 0;
     z-index: 100;
+}
+.navbar {
+
+    width: 100%;
+    position: fixed;
+    padding: 0 !important;
+    transition: all 500ms ease;
+    z-index: 1000;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+
+.colorChange-link{
+    color: navy !important;
+}
+
+.colorChange{
+    background-color: white;
+    transition: all 500ms ease;
 }
 
 .nav-menu {
@@ -67,11 +89,19 @@ nav {
     align-items: center;
     width: 500px;
     list-style: none;
+    /* margin-top: 10px; */
 }
 
 .nav-btn {
     border: 1px solid white;
     color: white;
+    padding: .3em 1em;
+    transition: all 500ms ease;
+}
+
+.colorChange-nav-btn{
+    border: 1px solid orange;
+    color: orange;
     padding: .3em 1em;
     transition: all 500ms ease;
 }

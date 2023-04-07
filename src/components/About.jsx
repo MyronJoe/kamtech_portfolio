@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 function About() {
     return (
-        <div className='about mt-5'>
+        <div className='about mt-5' id={about}>
             <Container>
                 <Row>
                     <Col xs={12} md={6}>

@@ -11,15 +11,16 @@
     margin-bottom: 15px;
 }
 
-.social-icon{
+.social-iconF{
     color: white;
     border: 2px solid white;
-    padding: 2px 7px;
+    padding: 3px 7px;
     border-radius: 100%;
     font-size: 20px;
     transition: all 500ms ease;
+    margin: 7px;
 }
-.social-icon:hover{
+.social-iconF:hover{
     color: #20232A;
     border: 2px solid orange;
     background-color: white;

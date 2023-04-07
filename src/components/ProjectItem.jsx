@@ -13,7 +13,7 @@ import Project from './Project'
 function ProjectItem() {
     return (
         <div>
-            <div className='services mt-4'>
+            <div className='services mt-4' id='project'>
                 <Container>
                     <h1 className='top-title mb-5'>PROJECTS</h1>
                     <Row>

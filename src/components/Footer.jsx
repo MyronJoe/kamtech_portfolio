@@ -14,27 +14,27 @@ function Footer() {
 
                     <div className="social-icons">
 
-                        <Link to="" className='social-icon'>
+                        <Link to="" className='social-iconF'>
                             <i class="bi bi-facebook"></i>
                         </Link>
 
-                        <Link to="" className='social-icon'>
+                        <Link to="" className='social-iconF'>
                             <i class="bi bi-twitter"></i>
                         </Link>
 
-                        <Link to="" className='social-icon'>
+                        <Link to="" className='social-iconF'>
                             <i class="bi bi-instagram"></i>
                         </Link>
 
-                        <Link to="" className='social-icon'>
+                        <Link to="" className='social-iconF'>
                             <i class="bi bi-linkedin"></i>
                         </Link>
 
-                        <Link to="" className='social-icon'>
+                        <Link to="" className='social-iconF'>
                             <i class="bi bi-whatsapp"></i>
                         </Link>
 
-                        <Link to="" className='social-icon'>
+                        <Link to="" className='social-iconF'>
                             <i class="bi bi-github"></i>
                         </Link>
                     </div>

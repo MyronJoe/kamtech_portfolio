@@ -10,7 +10,7 @@ import {Container, Row} from 'react-bootstrap';
 function ServicesItem() {
     return (
         <div>
-            <div className='services mt-4'>
+            <div className='services mt-4' id='services'>
                 <Container>
                     <h1 className='top-title mb-5'>SERVICES</h1>
                     <Row>
