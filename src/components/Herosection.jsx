@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 function Herosection() {
     return (
-        <div className='header1' style={{ backgroundImage: `url(${bgImage})` }}>
+        <div id='hero' className='header1' style={{ backgroundImage: `url(${bgImage})` }}>
 
             <div className="hero-word">
 

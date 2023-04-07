@@ -76,6 +76,7 @@ nav {
     padding: 0 !important;
     transition: all 500ms ease;
     z-index: 1000;
+    
 }
 
 dl, ol, ul {
@@ -90,6 +91,7 @@ dl, ol, ul {
 .colorChange{
     background-color: white;
     transition: all 500ms ease;
+    box-shadow: 2px 2px 3px rgba(153, 153, 153, 0.324);
 }
 
 .nav-menu {

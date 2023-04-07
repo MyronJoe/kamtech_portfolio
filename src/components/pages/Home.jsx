@@ -10,7 +10,7 @@ function Home() {
     return (
         <div>
             <Herosection />
-            <About />
+            <About/>
             <ServicesItem />
             <ProjectItem />
         </div>
