@@ -1,24 +1,54 @@
 import './App.css';
-import React, { useState, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Footer from './components/Footer';
-import Message from './components/pages/Message';
+import ScaleLoader from "react-spinners/ScaleLoader";
 
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true)
+
+    setTimeout(() => {
+      setLoading(false)
+    }, 8000)
+
+  }, [])
+
 
 
   return (
     <>
-      <BrowserRouter>
-        <Navbar/>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/message' element={<Message />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+
+      {
+        loading ?
+
+          <div className='loader'>
+            <ScaleLoader
+              color={'#00007C'}
+              loading={loading}
+              // cssOverride={override}
+              size={60}
+              aria-label="Loading Spinner"
+              data-testid="loader"
+            />
+          </div>
+
+          :
+
+          <BrowserRouter>
+            <Navbar />
+            <Routes>
+              <Route path='/' element={<Home />} />
+            </Routes>
+            <Footer />
+          </BrowserRouter>
+
+      }
+
     </>
   );
 }
