@@ -22,10 +22,10 @@ function Project(props) {
 
                     <hr />
                     <div className='project-btn'>
-                    <Link to="" className='code-btn'>
+                    <Link to={props.preview_link} className='code-btn'>
                         Preview <i class="bi bi-code-square"></i>
                     </Link>
-                    <Link to="" className='code-btn'>
+                    <Link to={props.source_codeLink} className='code-btn'>
                         Source Code <i class="bi bi-github"></i>
                     </Link>
                     </div>

@@ -2,6 +2,9 @@ import React from 'react'
 import project1 from '../../src/img/work-3.jpg'
 import project2 from '../../src/img/work-4.jpg'
 import project3 from '../../src/img/work-5.jpg'
+import project4 from '../../src/img/work-6.jpg'
+import project5 from '../../src/img/work-2.jpg'
+import project6 from '../../src/img/work-1.jpg'
 import './Project.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Row} from 'react-bootstrap';
@@ -19,36 +22,48 @@ function ProjectItem() {
                             title='Web Design'
                             category='Web Design'
                             sub_title='Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.'
+                            preview_link='#'
+                            source_codeLink='#'
                         />
                         <Project
                             src={project2}
                             title='WEB DEVELOPMENT'
                             category='Graphice Design'
                             sub_title='Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.'
+                            preview_link='#'
+                            source_codeLink='#'
                         />
                         <Project
                             src={project3}
                             title='GRAPHIC DESIGN'
                             category='Web Development'
                             sub_title='Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.'
+                            preview_link='#'
+                            source_codeLink='#'
                         />
                         <Project
-                            src={project1}
+                            src={project4}
                             title='Web Design'
                             category='Web Design'
                             sub_title='Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.'
+                            preview_link='#'
+                            source_codeLink='#'
                         />
                         <Project
-                            src={project2}
+                            src={project5}
                             title='WEB DEVELOPMENT'
                             category='Graphice Design'
                             sub_title='Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.'
+                            preview_link='#'
+                            source_codeLink='#'
                         />
                         <Project
-                            src={project3}
+                            src={project6}
                             title='GRAPHIC DESIGN'
                             category='Web Development'
                             sub_title='Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.'
+                            preview_link='#'
+                            source_codeLink='#'
                         />
                     </Row>
                 </Container >
