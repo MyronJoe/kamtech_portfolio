@@ -87,7 +87,7 @@ function About() {
                             <i class="bi bi-arrow-right"></i> Download CV
                             </Link>
 
-                            <Link to="" className='social-btn2'>
+                            <Link to="/message" className='social-btn2'>
                                 Message Me
                             </Link>
                         </div>
