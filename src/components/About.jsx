@@ -23,7 +23,7 @@ function About() {
 
                                 <p><strong>Name:</strong> <span>Myron Joe</span></p>
                                 <Link to="" >
-                                    <p><strong>Email:</strong> <span>kamtech@gmail.com</span></p>
+                                    <p><strong>Email:</strong> <span>kamtdev001@gmail.com</span></p>
                                 </Link>
                                 <Link to="" >
                                     <p><strong>Phone:</strong> <span>+1238109989839</span></p>

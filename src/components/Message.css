@@ -8,6 +8,8 @@
 .message-form{
     background-color: white;
     padding: 1.5em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(219, 219, 219);
 }
 .btn-send{
     background-color: #20232A;
@@ -45,6 +47,8 @@
     height: auto;
     overflow: hidden;
     background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(219, 219, 219);
 }
 
 .img-f{
