@@ -7,11 +7,11 @@ import ServicesItem from '../ServicesItem'
 
 
 
-function Home() {
+function Home({scroll4}) {
     return (
         <div>
             <Herosection />
-            <About/>
+            <About scroll4={scroll4}/>
             <ServicesItem />
             <ProjectItem />
             <Message />

@@ -6,7 +6,7 @@ import myImage from '../../src/img/me.jpg'
 import { Link } from 'react-router-dom';
 
 
-function About() {
+function About({scroll4}) {
     return (
         <div className='about mt-5' id='about'>
             <Container>
@@ -83,11 +83,11 @@ function About() {
 
 
                         <div className="buttons">
-                            <Link to="" className='social-btn1'>
+                            <Link to="https://drive.google.com/file/d/1JQYzZ0vLE-R5kQhcVZHwWt9SiJWEEcgy/view?usp=share_link" className='social-btn1'>
                             <i class="bi bi-arrow-right"></i> Download CV
                             </Link>
 
-                            <Link to="/message" className='social-btn2'>
+                            <Link to="/" onClick={scroll4} className='social-btn2'>
                                 Message Me
                             </Link>
                         </div>

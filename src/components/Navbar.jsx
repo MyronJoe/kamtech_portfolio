@@ -55,7 +55,7 @@ function Navbar() {
                 </Link>
 
                 <div className='menu-icon' onClick={handleClick}>
-                    <img className='menu' src={click ? 'img/cancel-1.png' : 'img/menu-1.png'} alt="KamTech" />
+                    <i className={click || colorChange ? 'menuicon colorChange-link bi bi-list' : 'menuicon bi bi-list'} />
                 </div>
 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>

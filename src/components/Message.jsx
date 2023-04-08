@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './Message.css'
 import { Col, Container, Row } from 'react-bootstrap';
@@ -6,16 +6,22 @@ import webimg from '../../src/img/web1.avif'
 
 function Message() {
 
+  const [status, setStatus] = useState(false);
   const form = useRef();
+
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_hdckqfe', 'template_v786dfd', form.current, 'Cf8ZeQyERjRLUSwZv')
       .then((result) => {
         console.log(result.text);
+        console.log("Message Sent");
+        setStatus({ succes: true, message: 'Message sent successfully' });
+        e.target.reset();
       }, (error) => {
         console.log(error.text);
+        setStatus({ succes: false, message: 'Please try again later.' });
       });
   };
 
@@ -33,23 +39,23 @@ function Message() {
               <form ref={form} onSubmit={sendEmail}>
                 <Row>
                   <Col xs={12} md={6}>
-                    <input type="text" className='form-control' name='name' placeholder='Name' />
+                    <input type="text" className='form-control' name='name' required placeholder='Name' />
                   </Col>
 
                   <Col xs={12} md={6}>
-                    <input type="email" className='form-control' name='email' placeholder='Email' />
+                    <input type="email" className='form-control' name='email' required placeholder='Email' />
                   </Col>
 
                   <Col xs={12} md={6}>
-                    <input type="text" className='form-control' name='pnumber' placeholder='Mobile Number' />
+                    <input type="text" className='form-control' name='pnumber' required placeholder='Mobile Number' />
                   </Col>
 
                   <Col xs={12} md={6}>
-                    <input type="text" className='form-control' name='address' placeholder='Address' />
+                    <input type="text" className='form-control' name='address' required placeholder='Address' />
                   </Col>
 
                   <Col xs={12}>
-                    <textarea className='form-control' name="message" id="" cols="30" rows="3" placeholder='Message'></textarea>
+                    <textarea className='form-control' name="message" id="" cols="30" rows="3" required placeholder='Message'></textarea>
                   </Col>
 
                   <Col xs={3}>
@@ -58,6 +64,16 @@ function Message() {
 
                 </Row>
               </form>
+
+              {
+                status.message &&
+                <div className="sent">
+                  <p>{status.message} <i class="bi bi-check2-circle"></i></p>
+                </div>
+              }
+
+
+
 
             </div>
 

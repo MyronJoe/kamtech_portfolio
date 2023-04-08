@@ -18,6 +18,11 @@ function App() {
 
   }, [])
 
+  const scroll4 = () => {
+    const section = document.querySelector('#msg');
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
 
 
   return (
@@ -42,7 +47,7 @@ function App() {
           <BrowserRouter>
             <Navbar />
             <Routes>
-              <Route path='/' element={<Home />} />
+              <Route path='/' element={<Home scroll4={scroll4}/>} />
             </Routes>
             <Footer />
           </BrowserRouter>

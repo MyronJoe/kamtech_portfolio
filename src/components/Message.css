@@ -10,6 +10,7 @@
     padding: 1.5em;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgb(219, 219, 219);
+    position: relative;
 }
 .btn-send{
     background-color: #20232A;
@@ -57,6 +58,20 @@
     object-fit: cover;
 }
 
+.sent p{
+    background-color: #ececec;
+    position: absolute;
+    right: 25px;
+    bottom: 7px;
+    padding:1px 10px;
+    box-shadow: 2px 2px 5px rgb(219, 219, 219);
+    border-bottom: 2px solid green ;
+    border-radius: 3px;
+}
+
+.bi-check2-circle{
+    color: green;
+}
 
 @media screen and (max-width: 768px) {
 
