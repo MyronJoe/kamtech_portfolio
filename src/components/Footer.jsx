@@ -42,7 +42,7 @@ function Footer() {
                     <div className="site-details">
                         <p><span>&copy;</span> Copyright KamTech. All Rights Reserved</p>
 
-                        <p>Designed by Kam-Tech</p>
+                        <p>Designed by KamTech - 2023</p>
                     </div>
 
 
