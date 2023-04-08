@@ -83,7 +83,7 @@ function About({scroll4}) {
 
 
                         <div className="buttons">
-                            <Link to="https://drive.google.com/file/d/1JQYzZ0vLE-R5kQhcVZHwWt9SiJWEEcgy/view?usp=share_link" className='social-btn1'>
+                            <Link to="/" className='social-btn1'>
                             <i class="bi bi-arrow-right"></i> Download CV
                             </Link>
 
