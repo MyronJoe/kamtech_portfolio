@@ -34,27 +34,27 @@ function About({scroll4}) {
 
 
                                 <p>
-                                    <Link to="" className='social-icon'>
+                                    <Link to="https://web.facebook.com/myron.joe.50" className='social-icon'>
                                         <i class="bi bi-facebook"></i>
                                     </Link>
 
-                                    <Link to="" className='social-icon'>
+                                    <Link to="https://twitter.com/kamTech_01" className='social-icon'>
                                         <i class="bi bi-twitter"></i>
                                     </Link>
 
-                                    <Link to="" className='social-icon'>
+                                    {/* <Link to="" className='social-icon'>
                                         <i class="bi bi-instagram"></i>
-                                    </Link>
+                                    </Link> */}
 
-                                    <Link to="" className='social-icon'>
+                                    <Link to="http://www.linkedin.com/in/myron-joe" className='social-icon'>
                                         <i class="bi bi-linkedin"></i>
                                     </Link>
 
-                                    <Link to="" className='social-icon'>
+                                    <Link to="https://wa.me/2347046617413?text=WELCOME%20to%20Kam%20Tech.%20We%20offer%20Web%20Design,%20Web%20Development,%20Graphics%20Design%20and%20more." className='social-icon'>
                                         <i class="bi bi-whatsapp"></i>
                                     </Link>
 
-                                    <Link to="" className='social-icon'>
+                                    <Link to="https://github.com/MyronJoe" className='social-icon'>
                                         <i class="bi bi-github"></i>
                                     </Link>
                                 </p>
@@ -98,9 +98,12 @@ function About({scroll4}) {
                         <div className="about-details">
                             <h2 className='about-me'>About Me</h2>
 
-                            <p className='p1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p className='p1'>I'm <b>Onyekachi Joseph</b> a dedicated and energetic Full Stack Developer and a Graphic Designer with great passion for creating/developing attractive designs, interactive, responsive and user friendly websites. I have an excellent communication skill thereby making it possible for me to work with a team. I also have a strong commitment to research in order to enhance my tech skills.</p>
 
-                            <p className='p2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p className='p2'>Using my skills, knowledge and ability, I apply basic development principles in presenting ideas, information, products and services on a website, thereby bringing the clients imaginations into reality.
+                            When I'm not programming, I'm either reading a thriller book, listening to music or checking up on the latest updates on the tools I work with. I am open to collaborations and job opportunities. so drop a message to share ideas &#x1F44D;
+                            </p>
+                            
                         </div>
                     </Col>
                 </Row>
