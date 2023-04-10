@@ -25,8 +25,8 @@ function About({scroll4}) {
                                 <Link to="" >
                                     <p><strong>Email:</strong> <span>kamtdev001@gmail.com</span></p>
                                 </Link>
-                                <Link to="" >
-                                    <p><strong>Phone:</strong> <span>+1238109989839</span></p>
+                                <Link to="https://wa.me/2347046617413?text=WELCOME%20to%20Kam%20Tech.%20We%20offer%20Web%20Design,%20Web%20Development,%20Graphics%20Design%20and%20more." >
+                                    <p><strong>Phone:</strong> <span>+2347046617413</span></p>
                                 </Link>
 
 
