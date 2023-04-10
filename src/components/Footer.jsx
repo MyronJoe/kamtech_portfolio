@@ -34,7 +34,7 @@ function Footer() {
                             <i class="bi bi-whatsapp"></i>
                         </Link>
 
-                        <Link to="" className='social-iconF'>
+                        <Link to="https://github.com/MyronJoe" className='social-iconF'>
                             <i class="bi bi-github"></i>
                         </Link>
                     </div>
