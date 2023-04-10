@@ -14,7 +14,7 @@ function Footer() {
 
                     <div className="social-icons">
 
-                        <Link to="" className='social-iconF'>
+                        <Link to="https://web.facebook.com/myron.joe.50" className='social-iconF'>
                             <i class="bi bi-facebook"></i>
                         </Link>
 
