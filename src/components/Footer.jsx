@@ -30,7 +30,7 @@ function Footer() {
                             <i class="bi bi-linkedin"></i>
                         </Link>
 
-                        <Link to="" className='social-iconF'>
+                        <Link to="https://wa.me/2347046617413?text=WELCOME%20to%20Kam%20Tech.%20We%20offer%20Web%20Design,%20Web%20Development,%20Graphics%20Design%20and%20more." className='social-iconF'>
                             <i class="bi bi-whatsapp"></i>
                         </Link>
 
