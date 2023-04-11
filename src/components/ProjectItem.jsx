@@ -1,5 +1,5 @@
 import React from 'react'
-import project1 from '../../src/img/work-3.jpg'
+import project1 from '../../src/img/project1.jpg'
 import project2 from '../../src/img/work-4.jpg'
 import project3 from '../../src/img/work-5.jpg'
 import project4 from '../../src/img/work-6.jpg'
@@ -19,11 +19,11 @@ function ProjectItem() {
                     <Row>
                         <Project
                             src={project1}
-                            title='Web Design'
+                            title='ReactJs Ecommerce Template'
                             category='Web Design'
                             sub_title='Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.'
-                            preview_link='#'
-                            source_codeLink='#'
+                            preview_link='https://react-js-ecommerce-five.vercel.app/'
+                            source_codeLink='https://github.com/MyronJoe/ReactJs-Ecommerce'
                         />
                         <Project
                             src={project2}

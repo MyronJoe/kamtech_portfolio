@@ -29,6 +29,8 @@ function Project(props) {
                         {props.title}
                     </h5>
 
+                    {/* <p>{props.sub_title}</p> */}
+
                     <hr />
                     <div className='project-btn'>
                     <Link to={props.preview_link} className='code-btn'>
