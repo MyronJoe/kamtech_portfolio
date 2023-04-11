@@ -1,17 +1,26 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './About.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import myImage from '../../src/img/me.jpg'
 import { Link } from 'react-router-dom';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 function About({scroll4}) {
+
+    useEffect(() => {
+        AOS.init({
+            // duration : 5000
+        });
+    }, []);
+
     return (
         <div className='about mt-5' id='about'>
             <Container>
                 <Row>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={6} data-aos="zoom-in">
 
                         <div className="about_contact_sec">
 
@@ -94,7 +103,7 @@ function About({scroll4}) {
 
                     </Col>
 
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={6} data-aos="zoom-in">
                         <div className="about-details">
                             <h2 className='about-me'>About Me</h2>
 
