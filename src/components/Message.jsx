@@ -3,8 +3,16 @@ import emailjs from '@emailjs/browser';
 import './Message.css'
 import { Col, Container, Row } from 'react-bootstrap';
 import webimg from '../../src/img/web1.avif'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Message() {
+
+  useEffect(() => {
+    AOS.init({
+        // duration : 5000
+    });
+}, []);
 
   const [status, setStatus] = useState(false);
   const form = useRef();
@@ -30,7 +38,7 @@ function Message() {
 
       <Container>
         <Row>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} data-aos="zoom-in">
 
             <div className="message-form">
 
@@ -79,7 +87,7 @@ function Message() {
 
           </Col>
 
-          <Col xs={12} md={6} className='img-section1'>
+          <Col xs={12} md={6} className='img-section1' data-aos="zoom-in">
             <div className="img-section">
 
               <img className='img-f' src={webimg} alt="kamtech" />

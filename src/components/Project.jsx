@@ -1,13 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Project.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 function Project(props) {
+
+    useEffect(() => {
+        AOS.init({
+            // duration : 5000
+        });
+    }, []);
+    
     return (
-        <Col xs={12} md={6} lg={4}>
+        <Col xs={12} md={6} lg={4} data-aos="zoom-in">
             <div className="project-card">
 
                 <div className="image-holder">
