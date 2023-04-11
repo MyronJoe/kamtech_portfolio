@@ -1,16 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Herosection.css'
 import bgImage from '../../src/img/blog-4.jpg'
 import { TypeAnimation } from 'react-type-animation';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Herosection() {
+    useEffect(() => {
+        AOS.init({
+            // duration : 5000
+        });
+    }, []);
+
     return (
         <div id='hero' className='header1' style={{ backgroundImage: `url(${bgImage})` }}>
 
             <div className="hero-word">
 
 
-                <h1>I am Myron Joe</h1>
+                <h1 data-aos="fade-down">I am Myron Joe</h1>
 
                 <div className='divider'></div>
 

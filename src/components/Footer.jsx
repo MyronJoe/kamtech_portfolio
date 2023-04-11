@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Col, Container, Row } from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function Footer() {
