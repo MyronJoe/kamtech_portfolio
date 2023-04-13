@@ -47,7 +47,7 @@ function App() {
           <BrowserRouter>
             <Navbar />
             <Routes>
-              <Route path='/' element={<Home scroll4={scroll4}/>} />
+              <Route path='/' element={<Home scroll4={scroll4} />} />
             </Routes>
             <Footer />
           </BrowserRouter>
