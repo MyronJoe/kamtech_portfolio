@@ -8,7 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 
-function About({scroll4}) {
+function About({ scroll4 }) {
 
     useEffect(() => {
         AOS.init({
@@ -93,7 +93,7 @@ function About({scroll4}) {
 
                         <div className="buttons">
                             <Link to="/" className='social-btn1'>
-                            <i class="bi bi-arrow-right"></i> Download CV
+                                <i class="bi bi-arrow-right"></i> Download CV
                             </Link>
 
                             <Link to="/" onClick={scroll4} className='social-btn2'>
@@ -110,9 +110,9 @@ function About({scroll4}) {
                             <p className='p1'>I'm <b>Myron Joe</b> a dedicated and energetic Full Stack Developer and a Graphic Designer with great passion for creating/developing attractive designs, interactive, responsive and user friendly websites. I have an excellent communication skill thereby making it possible for me to work with a team. I also have a strong commitment to research in order to enhance my tech skills.</p>
 
                             <p className='p2'>Using my skills, knowledge and ability, I apply basic development principles in presenting ideas, information, products and services on a website, thereby bringing the clients imaginations into reality.
-                            When I'm not programming, I'm either reading a thriller book, listening to music or checking up on the latest updates on the tools I work with. I am open to collaborations and job opportunities. so drop a message to share ideas &#x1F44D;
+                                When I'm not programming, I'm either reading a thriller book, listening to music or checking up on the latest updates on the tools I work with. I am open to collaborations and job opportunities. so drop a message to share ideas &#x1F44D;
                             </p>
-                            
+
                         </div>
                     </Col>
                 </Row>
