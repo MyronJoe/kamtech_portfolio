@@ -1,27 +1,32 @@
-.menu{
+.menu {
     width: 30px;
     height: 30px;
     display: none;
     cursor: pointer;
     /* margin-right: 10px; */
 }
-.nav-logo-active{
+
+.nav-logo-active {
     display: none;
 }
-.nav-logo-active:hover{
+
+.nav-logo-active:hover {
     color: white;
 }
-.desktop-logo:hover{
+
+.desktop-logo:hover {
     color: white;
 }
-.nav-logo:hover{
+
+.nav-logo:hover {
     color: white;
 }
+
 .desktop-logo {
     color: white;
     font-size: 25px;
     font-weight: 600;
-    
+
 }
 
 .nav-logo {
@@ -69,6 +74,7 @@ nav {
     right: 0;
     z-index: 100;
 }
+
 .navbar {
 
     width: 100%;
@@ -76,19 +82,21 @@ nav {
     padding: 0 !important;
     transition: all 500ms ease;
     z-index: 1000;
-    
+
 }
 
-dl, ol, ul {
+dl,
+ol,
+ul {
     margin-top: 0;
     margin-bottom: 0 !important;
 }
 
-.colorChange-link{
+.colorChange-link {
     color: navy !important;
 }
 
-.colorChange{
+.colorChange {
     background-color: white;
     transition: all 500ms ease;
     box-shadow: 2px 2px 3px rgba(153, 153, 153, 0.324);
@@ -110,7 +118,7 @@ dl, ol, ul {
     transition: all 500ms ease;
 }
 
-.colorChange-nav-btn{
+.colorChange-nav-btn {
     border: 1px solid orange;
     color: orange;
     padding: .3em 1em;
@@ -122,7 +130,7 @@ dl, ol, ul {
     color: orange;
 }
 
-.gotop{
+.gotop {
     background-color: navy;
     position: fixed;
     z-index: 2000;
@@ -138,11 +146,12 @@ dl, ol, ul {
     font-size: 30px;
     cursor: pointer;
 }
-.gotop:hover{
+
+.gotop:hover {
     color: orange;
 }
 
-.menuicon{
+.menuicon {
     font-size: 30px;
     color: white;
     display: none;
@@ -150,11 +159,12 @@ dl, ol, ul {
 
 @media screen and (max-width: 760px) {
 
-    nav{
+    nav {
         width: 100%;
         /* background-color: red; */
         padding: 1.5em 1em;
     }
+
     .menuicon {
         display: block;
     }
@@ -188,7 +198,7 @@ dl, ol, ul {
         left: 0;
         opacity: 1;
         z-index: 1;
-        
+
     }
 
     .nav-link {
@@ -208,7 +218,7 @@ dl, ol, ul {
         margin: 1px;
 
     }
-    
+
     .nav-link:hover:before {
         background-color: orange;
         width: 8%;
@@ -219,20 +229,20 @@ dl, ol, ul {
         color: orange;
         margin-top: 10px;
     }
-    
+
     .nav-btn:hover {
         border: 1px solid navy;
         color: navy;
     }
-    
-    .nav-logo-active{
+
+    .nav-logo-active {
         color: navy;
         font-size: 25px;
         font-weight: 600;
         display: block;
     }
-    
-    .nav-active{
+
+    .nav-active {
         background-color: white;
     }
 }
