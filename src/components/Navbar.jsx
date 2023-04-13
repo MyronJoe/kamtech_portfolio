@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom'
 import './Navbar.css'
@@ -91,7 +91,7 @@ function Navbar() {
 
 
             <div className="gotop" onClick={scroll}>
-            <i class="bi bi-arrow-up-short"></i>
+                <i class="bi bi-arrow-up-short"></i>
             </div>
         </div>
     )
