@@ -10,9 +10,9 @@ function Message() {
 
   useEffect(() => {
     AOS.init({
-        // duration : 5000
+      // duration : 5000
     });
-}, []);
+  }, []);
 
   const [status, setStatus] = useState(false);
   const form = useRef();
