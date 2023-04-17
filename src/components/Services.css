@@ -1,8 +1,9 @@
-.services{
+.services {
     font-family: 'Trebuchet MS';
     text-align: center;
 }
-.service-card{
+
+.service-card {
     background-color: #FFFFFF;
     padding: 2em;
     text-align: center;
@@ -12,15 +13,18 @@
     cursor: pointer;
     margin-bottom: 30px;
 }
-.service-card img{
+
+.service-card img {
     width: 70px;
 }
-.title{
+
+.title {
     margin: 15px 0;
     text-transform: uppercase;
     font-weight: 600;
 }
-.img-holder{
+
+.img-holder {
     width: 120px;
     height: 120px;
     border: 10px solid navy;
@@ -32,16 +36,17 @@
     transition: all 500ms ease;
 }
 
-.service-card:hover .img-holder{
+.service-card:hover .img-holder {
     border: 10px solid rgb(194, 194, 253);
 }
 
-.top-title{
+.top-title {
     font-weight: 700;
     font-size: 40px;
     position: relative;
 }
-.top-title::before{
+
+.top-title::before {
     content: '';
     position: absolute;
     height: 3px;
