@@ -5,7 +5,7 @@ import GDesign from '../../src/img/graphic-design.png'
 import Services from './Services'
 import './Services.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container, Row} from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 function ServicesItem() {
     return (
