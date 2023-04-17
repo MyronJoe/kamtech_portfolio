@@ -7,7 +7,7 @@ import project5 from '../../src/img/work-2.jpg'
 import project6 from '../../src/img/work-1.jpg'
 import './Project.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container, Row} from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import Project from './Project'
 
 function ProjectItem() {
