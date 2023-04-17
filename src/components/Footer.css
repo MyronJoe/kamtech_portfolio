@@ -1,17 +1,18 @@
-.footer{
+.footer {
     background-color: #20232A;
     color: white;
     padding: 1.5em 0 1em 0;
 }
-.footer-item{
+
+.footer-item {
     text-align: center;
 }
 
-.social-icons{
+.social-icons {
     margin-bottom: 15px;
 }
 
-.social-iconF{
+.social-iconF {
     color: white;
     border: 2px solid white;
     padding: 5px 7px;
@@ -20,13 +21,13 @@
     transition: all 500ms ease;
     margin: 7px;
 }
-.social-iconF:hover{
+
+.social-iconF:hover {
     color: #20232A;
     border: 2px solid orange;
     background-color: white;
 }
 
-.site-details p{
+.site-details p {
     margin: 4px;
 }
-
