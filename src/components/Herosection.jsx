@@ -33,7 +33,7 @@ function Herosection() {
                         'Frontend Developer', // Deletes 'One' and types 'Two'
                         3500, // Waits 4s
                         'Graphic Designer', // Types 'Three' without deleting 'Two'
-                        1000, 
+                        1000,
                         () => {
                             console.log('Sequence completed'); // Place optional callbacks anywhere in the array
                         }
@@ -41,7 +41,7 @@ function Herosection() {
                     wrapper="span"
                     cursor={true}
                     repeat={Infinity}
-                    style={{ fontSize: '2em', display: 'inline-block', color: 'white'}}
+                    style={{ fontSize: '2em', display: 'inline-block', color: 'white' }}
                 />
 
 
