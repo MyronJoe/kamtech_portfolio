@@ -1,8 +1,9 @@
-.services{
+.services {
     font-family: 'Trebuchet MS';
     text-align: center;
 }
-.project-card{
+
+.project-card {
     background-color: #FFFFFF;
     text-align: left;
     border-radius: 5px;
@@ -13,26 +14,26 @@
     overflow: hidden;
 }
 
-.word{
+.word {
     padding: 1em;
     position: relative;
 }
 
-.project-card img{
+.project-card img {
     width: 100%;
     height: 223px;
     object-fit: cover;
     transition: all 500ms ease;
 }
 
-.image-holder{
+.image-holder {
     width: 100%;
     height: 223px;
     overflow: hidden;
-    
+
 }
 
-.category{
+.category {
     position: absolute;
     background-color: navy;
     z-index: 20px;
@@ -43,23 +44,24 @@
     padding: 0 10px;
 }
 
-.project-card:hover.project-card img{
+.project-card:hover.project-card img {
     transform: scale(1.2);
 }
 
-.title{
+.title {
     margin: 6px 0 !important;
-    font-weight: 500!important;
-    text-transform: none!important;
+    font-weight: 500 !important;
+    text-transform: none !important;
 }
 
 
-.top-title{
+.top-title {
     font-weight: 700;
     font-size: 40px;
     position: relative;
 }
-.top-title::before{
+
+.top-title::before {
     content: '';
     position: absolute;
     height: 3px;
@@ -71,12 +73,12 @@
     background-color: navy;
 }
 
-.project-btn{
+.project-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.code-btn{
+.code-btn {
     color: black;
 }
