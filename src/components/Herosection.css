@@ -12,6 +12,7 @@
     align-items: center;
     overflow: hidden;
 }
+
 .header {
     background-color: rgba(0, 0, 0, 0.865);
     height: 100vh;
@@ -24,59 +25,62 @@
     position: absolute;
     top: 0;
 }
-.hero-word{
+
+.hero-word {
     text-align: center;
     font-family: 'Trebuchet MS';
     padding: 1em;
 }
 
-.hero-word h1{
+.hero-word h1 {
     color: white;
     font-size: 45px;
 }
 
-.hero-word p{
+.hero-word p {
     color: white;
     font-size: 20px;
 }
 
-.divider{
+.divider {
     height: 2px;
     width: 70px;
     background-color: orange;
     animation: slide 6s linear infinite;
-    margin:15px auto 0px auto;
+    margin: 15px auto 0px auto;
 }
 
 @keyframes slide {
-    0%{
+    0% {
         transform: translateX(-40px);
     }
-    50%{
+
+    50% {
         transform: translateX(40px);
         background-color: white;
     }
-    100%{
+
+    100% {
         transform: translateX(-40px);
     }
 }
 
 @media screen and (min-width: 860px) {
-    .hero-word h1{
+    .hero-word h1 {
         font-size: 55px;
     }
-    
-    .hero-word p{
+
+    .hero-word p {
         font-size: 25px;
     }
 }
 
 @media screen and (min-width: 960px) {
-    .hero-word h1{
+    .hero-word h1 {
         font-size: 65px;
     }
-    
-    .hero-word p{
+
+    .hero-word p {
 
         font-size: 30px;
     }
