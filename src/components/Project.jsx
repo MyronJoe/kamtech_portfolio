@@ -14,7 +14,7 @@ function Project(props) {
             // duration : 5000
         });
     }, []);
-    
+
     return (
         <Col xs={12} md={6} lg={4} data-aos="zoom-in">
             <div className="project-card">
@@ -33,12 +33,12 @@ function Project(props) {
 
                     <hr />
                     <div className='project-btn'>
-                    <Link to={props.preview_link} className='code-btn'>
-                        Preview <i class="bi bi-code-square"></i>
-                    </Link>
-                    <Link to={props.source_codeLink} className='code-btn'>
-                        Source Code <i class="bi bi-github"></i>
-                    </Link>
+                        <Link to={props.preview_link} className='code-btn'>
+                            Preview <i class="bi bi-code-square"></i>
+                        </Link>
+                        <Link to={props.source_codeLink} className='code-btn'>
+                            Source Code <i class="bi bi-github"></i>
+                        </Link>
                     </div>
                 </div>
 
