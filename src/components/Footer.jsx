@@ -22,10 +22,6 @@ function Footer() {
                             <i class="bi bi-twitter"></i>
                         </Link>
 
-                        {/* <Link to="" className='social-iconF'>
-                            <i class="bi bi-instagram"></i>
-                        </Link> */}
-
                         <Link to="http://www.linkedin.com/in/myron-joe" className='social-iconF'>
                             <i class="bi bi-linkedin"></i>
                         </Link>
