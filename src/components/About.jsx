@@ -38,10 +38,6 @@ function About({ scroll4 }) {
                                     <p><strong>Phone:</strong> <span>+2347046617413</span></p>
                                 </Link>
 
-
-                                {/* <p><strong>Profile:</strong> <span>Full-Stack Developer</span></p> */}
-
-
                                 <p>
                                     <Link to="https://web.facebook.com/myron.joe.50" className='social-icon'>
                                         <i class="bi bi-facebook"></i>
