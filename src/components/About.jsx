@@ -12,7 +12,7 @@ function About({ scroll4 }) {
 
     useEffect(() => {
         AOS.init({
-            // duration : 5000
+
         });
     }, []);
 
