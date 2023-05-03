@@ -47,10 +47,6 @@ function About({ scroll4 }) {
                                         <i class="bi bi-twitter"></i>
                                     </Link>
 
-                                    {/* <Link to="" className='social-icon'>
-                                        <i class="bi bi-instagram"></i>
-                                    </Link> */}
-
                                     <Link to="http://www.linkedin.com/in/myron-joe" className='social-icon'>
                                         <i class="bi bi-linkedin"></i>
                                     </Link>
