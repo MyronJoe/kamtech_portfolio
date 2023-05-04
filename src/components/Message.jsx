@@ -10,7 +10,7 @@ function Message() {
 
   useEffect(() => {
     AOS.init({
-      // duration : 5000
+      
     });
   }, []);
 
