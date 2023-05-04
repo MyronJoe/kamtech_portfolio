@@ -11,7 +11,7 @@ function Project(props) {
 
     useEffect(() => {
         AOS.init({
-            // duration : 5000
+            
         });
     }, []);
 
