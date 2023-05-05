@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 function Herosection() {
     useEffect(() => {
         AOS.init({
-            // duration : 5000
+
         });
     }, []);
 
