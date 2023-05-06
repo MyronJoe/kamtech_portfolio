@@ -12,7 +12,6 @@ function About({ scroll4 }) {
 
     useEffect(() => {
         AOS.init({
-
         });
     }, []);
 
