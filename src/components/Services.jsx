@@ -10,7 +10,6 @@ function Services(props) {
 
     useEffect(() => {
         AOS.init({
-            
         });
     }, []);
 
