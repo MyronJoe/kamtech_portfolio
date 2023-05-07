@@ -11,7 +11,6 @@ function Project(props) {
 
     useEffect(() => {
         AOS.init({
-            
         });
     }, []);
 
