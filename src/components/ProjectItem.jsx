@@ -68,7 +68,6 @@ function ProjectItem() {
                     </Row>
                 </Container >
             </div>
-
         </div >
     )
 }
