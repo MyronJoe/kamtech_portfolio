@@ -16,7 +16,6 @@ function Services(props) {
 
         <Col xs={12} md={6} lg={4}>
             <div className="service-card" data-aos="zoom-in">
-
                 <div className="img-holder">
                     <img src={props.src} alt={props.title} />
                 </div>
@@ -28,7 +27,6 @@ function Services(props) {
                 <p className="sub-title">
                     {props.sub_title}
                 </p>
-
             </div>
         </Col>
 
