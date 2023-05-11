@@ -19,7 +19,7 @@ function ProjectItem() {
                 <Container>
                     <h1 className='top-title mb-5'>PROJECTS</h1>
                     <Row>
-                        
+
                         <Project
                             src={project1}
                             title='ReactJs Ecommerce Template'
@@ -68,6 +68,7 @@ function ProjectItem() {
                             preview_link='#'
                             source_codeLink='#'
                         />
+                        
                     </Row>
 
                 </Container >
