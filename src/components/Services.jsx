@@ -13,7 +13,6 @@ function Services(props) {
     }, []);
 
     return (
-
         <Col xs={12} md={6} lg={4}>
             <div className="service-card" data-aos="zoom-in">
                 <div className="img-holder">
@@ -29,8 +28,6 @@ function Services(props) {
                 </p>
             </div>
         </Col>
-
-
     )
 }
 
