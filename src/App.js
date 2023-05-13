@@ -22,8 +22,6 @@ function App() {
     section.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
-
-
   return (
     <>
 
