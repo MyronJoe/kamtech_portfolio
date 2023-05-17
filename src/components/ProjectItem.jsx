@@ -10,7 +10,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row } from 'react-bootstrap';
 import Project from './Project'
 
-
 function ProjectItem() {
     return (
         <div>
