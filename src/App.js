@@ -24,7 +24,6 @@ function App() {
 
   return (
     <>
-
       {
         loading ?
 
@@ -50,7 +49,6 @@ function App() {
           </BrowserRouter>
 
       }
-
     </>
   );
 }
