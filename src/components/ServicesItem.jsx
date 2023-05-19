@@ -15,7 +15,6 @@ function ServicesItem() {
                 <Container>
                     <h1 className='top-title mb-5'>SERVICES</h1>
                     <Row>
-
                         <Services
                             src={wbDesign}
                             title='Web Design'
@@ -31,7 +30,6 @@ function ServicesItem() {
                             title='GRAPHIC DESIGN'
                             sub_title='Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.'
                         />
-                        
                     </Row>
                 </Container >
             </div>
