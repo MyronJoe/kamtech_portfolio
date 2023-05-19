@@ -16,17 +16,14 @@ function Project(props) {
     return (
         <Col xs={12} md={6} lg={4} data-aos="zoom-in">
             <div className="project-card">
-
                 <div className="image-holder">
                     <img src={props.src} alt={props.title} />
                 </div>
-
                 <div className="word">
                     <div className="category">{props.category}</div>
                     <h5 className="title">
                         {props.title}
                     </h5>
-
                     <hr />
                     <div className='project-btn'>
                         <Link to={props.preview_link} className='code-btn'>
@@ -37,7 +34,6 @@ function Project(props) {
                         </Link>
                     </div>
                 </div>
-
             </div>
         </Col>
     )
