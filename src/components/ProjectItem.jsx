@@ -1,6 +1,6 @@
 import React from 'react'
 import project1 from '../../src/img/project1.jpg'
-import project2 from '../../src/img/work-4.jpg'
+import project2 from '../../src/img/project2.jpg'
 import project3 from '../../src/img/work-5.jpg'
 import project4 from '../../src/img/work-6.jpg'
 import project5 from '../../src/img/work-2.jpg'
@@ -33,8 +33,8 @@ function ProjectItem() {
                             title='WEB DEVELOPMENT'
                             category='Graphice Design'
                             sub_title='Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.'
-                            preview_link='#'
-                            source_codeLink='#'
+                            preview_link='https://kamtech-real-estate-react-js-project.vercel.app/'
+                            source_codeLink='https://github.com/MyronJoe/RealEstate-ReactJS-Project'
                         />
                         <Project
                             src={project3}
