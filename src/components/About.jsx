@@ -29,18 +29,18 @@ function About({ scroll4 }) {
 
                             <div className="about_contact">
 
-                                <p><strong>Name:</strong> <span>Myron Joe</span></p>
+                                <p><strong>Name:</strong> <span>Kamtech</span></p>
                                 <Link to="" >
                                     <p><strong>Email:</strong> <span>kamtdev001@gmail.com</span></p>
                                 </Link>
                                 <Link to="https://wa.me/2347046617413?text=WELCOME%20to%20Kam%20Tech.%20We%20offer%20Web%20Design,%20Web%20Development,%20Graphics%20Design%20and%20more." >
-                                    <p><strong>Phone:</strong> <span>+2347046617413</span></p>
+                                    <p><strong>Phone:</strong> <span>+2348109989839</span></p>
                                 </Link>
 
                                 <p>
-                                    <Link to="https://web.facebook.com/myron.joe.50" className='social-icon'>
+                                    {/* <Link to="https://web.facebook.com/myron.joe.50" className='social-icon'>
                                         <i class="bi bi-facebook"></i>
-                                    </Link>
+                                    </Link> */}
 
                                     <Link to="https://twitter.com/kamTech_01" className='social-icon'>
                                         <i class="bi bi-twitter"></i>
@@ -68,11 +68,13 @@ function About({ scroll4 }) {
                             <ul class="skils">
                                 <li>Html</li>
                                 <li>Css</li>
+                                <li>Bootstrap</li>
+                                <li>Tailwind</li>
+                                <li>Typescript</li>
                                 <li>Javascript</li>
-                                <li>React</li>
-                                <li>Python</li>
-                                <li>Django</li>
-                                <li>Flask</li>
+                                <li>ReactJS</li>
+                                <li>NextJS</li>
+                                <li>NodeJs</li>
                                 <li>Php</li>
                                 <li>Laravel</li>
                                 <li>Photoshop</li>
