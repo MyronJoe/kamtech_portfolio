@@ -23,7 +23,7 @@ function ProjectItem() {
                         <Project
                             src={project1}
                             title='ReactJs Ecommerce Template'
-                            category='Web Design'
+                            category='Frontend'
                             sub_title='Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.'
                             preview_link='https://react-js-ecommerce-five.vercel.app/'
                             source_codeLink='https://github.com/MyronJoe/ReactJs-Ecommerce'
@@ -31,7 +31,7 @@ function ProjectItem() {
                         <Project
                             src={project2}
                             title='WEB DEVELOPMENT'
-                            category='Graphice Design'
+                            category='Frontend'
                             sub_title='Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.'
                             preview_link='https://kamtech-real-estate-react-js-project.vercel.app/'
                             source_codeLink='https://github.com/MyronJoe/RealEstate-ReactJS-Project'
