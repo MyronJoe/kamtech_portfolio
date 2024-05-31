@@ -29,7 +29,7 @@ function About({ scroll4 }) {
 
                             <div className="about_contact">
 
-                                <p><strong>Name:</strong> <span>Kamtech</span></p>
+                                <p><strong>Name:</strong> <span>Myron Joe</span></p>
                                 <Link to="" >
                                     <p><strong>Email:</strong> <span>kamtdev001@gmail.com</span></p>
                                 </Link>
