@@ -30,7 +30,7 @@ function ProjectItem() {
                         />
                         <Project
                             src={project2}
-                            title='WEB DEVELOPMENT'
+                            title='ReactJS RealEstate Template'
                             category='Frontend'
                             sub_title='Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.'
                             preview_link='https://kamtech-real-estate-react-js-project.vercel.app/'
